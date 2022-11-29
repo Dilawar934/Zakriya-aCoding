@@ -1,0 +1,125 @@
+.upper-section
+{width: 100%;
+height: 5rem;
+display: grid;
+grid-template-columns: 5rem 4fr 2fr 5rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.logo {
+    display: grid;
+    color: #3b5998; 
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    width: 8rem;
+  }
+  .info {
+    grid-column: 3/4;
+  }
+  .info ul {
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+    .logo h1 span {
+        font-size: 3.5rem;
+  }
+  .info ul li {
+    font-size: 1.5rem;
+  }
+  .info ul li a {
+    text-transform: capitalize;
+    color: rgba(0, 0, 3, 0.8);
+    transition: 0.5s;
+    text-decoration: none;
+    color: #08183b;
+  }
+  .info ul li:hover {
+    transform-origin: left;
+    color: rgba(22, 194, 137, 0.39);
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .lower-section
+{width: 100%;
+height: 5rem;
+display: grid;
+grid-template-columns: 10rem 4fr 10rem;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.lower-menu-link {
+    grid-column: 2/3;
+  }
+  .lower-menu-link ul {
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+    .lower-menu-link ul li {
+        font-size: 0.8rem;
+      }
+  .lower-menu-link ul li a{
+    text-transform: capitalize;
+    color: rgba(0, 3, 3, 0.8);
+    transition: 0.5s;
+    text-decoration: none;
+    color: #08183b;
+  }
+  .lower-menu-link ul li  {
+    transform-origin: left;
+    color: rgb(22, 22, 194);
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .lower-menu-link ul li:hover {
+    transform-origin: left;
+    color: rgba(22, 194, 137, 0.39);
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+
+  .lowest-section
+  {width: 200%;
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 2rem 1fr 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .lowest-menu-link {
+      grid-column: 2/3;
+    }
+    .lowest-menu-link ul {
+      height: 5remrem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+      .lowest-menu-link ul li {
+        font-size: 5px;
+        }
+    .lowest-menu-link ul li a{
+      text-transform: capitalize;
+      color: rgba(0, 3, 3, 0.8);
+      transition: 0.5s;
+      text-decoration: none;
+      color: #08183b;
+    }
+    .lowest-menu-link ul li  {
+      transform-origin: left;
+      color: rgba(0, 3, 3, 0.8);
+      text-decoration: underline;
+      transition: 0.5s;
+    }
+    .lowest-menu-link ul li:hover {
+      transform-origin: left;
+      color: rgba(22, 194, 137, 0.39);
+      text-decoration: underline;
+      transition: 0.5s;
+    }
+    
